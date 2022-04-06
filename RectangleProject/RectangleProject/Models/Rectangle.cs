@@ -62,5 +62,13 @@ namespace RectangleProject.Models
 
         }
 
+        public override string ToString()
+        {
+            double sideARound = Math.Round(sideA, 2);
+            double sideBRound = Math.Round(sideB, 2);
+            double AreaRound = Math.Round(Area, 2);
+            double PerimeterRound = Math.Round(Perimeter, 2);
+        }
+
     }
 }
