@@ -68,6 +68,12 @@ namespace RectangleProject.Models
             double sideBRound = Math.Round(sideB, 2);
             double AreaRound = Math.Round(Area, 2);
             double PerimeterRound = Math.Round(Perimeter, 2);
+            string result = "A oldal: " + sideARound + "\n";
+            result += "B oldal: " + sideBRound + "\n";
+            result += "Terület: " + AreaRound + "\n";
+            result += "Kerület: " + PerimeterRound + "\n";
+
+            return result;
         }
 
     }
